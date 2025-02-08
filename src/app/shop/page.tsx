@@ -17,8 +17,8 @@ const Shop = () => {
           <img src={item.image} alt={item.name} className="w-full rounded-md transition-transform duration-300 transform hover:scale-110" />
           <h3 className="mt-4 text-2xl font-bold">{item.name}</h3>
           <p className="text-gray-500">{item.description}</p>
-          <div className="price text-blue-500 text-xl font-semibold mt-2">${item.price}</div>
-          <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md">Add to Cart</button>
+          <div className="price text-yellow-400 text-xl font-semibold mt-2">${item.price}</div>
+          <button className="mt-4 px-4 py-2 bg-yellow-500 text-white rounded-md">Add to Cart</button>
         </div>
       ))}
     </div>
